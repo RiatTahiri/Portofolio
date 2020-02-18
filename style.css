@@ -66,8 +66,6 @@ header {
 }
 
 .table_projects {
-    max-width: 100%;
-    margin: auto;
     height: 300px;
 }
 
@@ -78,6 +76,8 @@ header {
 }
 
 .projects, th, td {
+    max-width: 100%;
+    margin: auto;
     border-style: solid;
     border-color: black;
     border-width: 1px;
