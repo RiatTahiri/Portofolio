@@ -55,14 +55,14 @@ ul {
     height: 80vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 30px;
+    padding: 30px 0px;
     font-family: "Roboto", sans-serif;
 }
 
 .main_header .logo {
     color: white;
     /* padding: 50px 0px; */
-    align-self: center;
+    text-align: center;
     padding: 50px 0px;
     font-size: 60px;
     grid-column: 2;
@@ -72,6 +72,7 @@ ul {
 .main_header h2 {
     color: white;
     align-self: flex-start;
+    text-align: center;
     font-size: 25px;
     grid-column: 2;
     grid-row: 2;
@@ -180,12 +181,4 @@ footer #contact i .contact_text {
     padding: 0px 15px;
     font-size: 25px;
     letter-spacing: 2px;
-}
-
-@media only screen and (max-width: 525px) {
-    .main_nav ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-    }
 }
