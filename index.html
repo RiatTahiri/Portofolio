@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Rijad Tahiri</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/animate.css">
+    <script src="https://kit.fontawesome.com/44cc8bb0f0.js" crossorigin="anonymous"></script>
+    <title>Rijad Tahiri</title>
 </head>
 <body>
-    <header>
-      <nav id="nav_header">
-        <a href="#">Home</a>
-        <a href="#foot">Projects</a>
-        <a href="#">Contact</a>
-      </nav>
+    <div id="container">
+        <div id="image">
+            <nav class="main_nav">
+                <ul class="main_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#project_section">My Projects</a></li>
+                    <li><a href="#foot">Contact</a></li>
+                </ul>
+            </nav>
 
-      <div id="main">
-        <div class="image_div">
-            <img src="porto.jpg" width="300px" style="border-radius: 50%;">
+            <header class="main_header">
+                <h3 class="logo">Rijad Tahiri</h3>
+                <h2>Self Taught Programmer and Electrical Enginner</h2>
+            </header>
         </div>
-        <div class="info_div">
-            <h3>Rijad Tahiri</h3>
-            <p>Self Taught Programmer & Electronic Engineer.</p>
-        </div>
-      </div>
-    </header>
 
-    <section id="projects_section">
-      <div class="table_projects">
-          <h2>Projects</h2>
-          <table class="projects">
-              <tr>
-                <th>Project Name</th>
-                <th>Project Language</th>
-                <th>Project Desc</th>
-                <th>Project Link</th>
-              </tr>
-              <tr>
-                
-              </tr>
-          </table>
-      </div>
-    </section>
+        <section class="about_section">
+            <h2>About Me</h2>
+            <p>My name is Rijad Tahiri, I'm 17 years old. I always loved technology.
+                Currently i'm studying Programming and Electronics in North Macedonia.
+            </p>
+        </section>
 
-    <section id="about_section">
-      <div class="about_div">
-        <h2>About</h2>
-        <h3>My name is Rijad i'm 17 years old and i'm a technology enthusiast</h3>
-        <h3>Currently studying Programming & Electronics in North Macedonia.</h3>
-      </div>
-    </section>
+        <section id="project_section">
+            <div class="table_title">
+                <h2>Projects</h2>
+            </div>
+            <table>
+                    <thead>
+                        <tr> <th>Title</th>
+                        <th>Language</th> <th>Description</th> <th>Link</th> </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td> Live Translator </td> <td>Java/Android Studio</td> <td>Live Word Translator</td> <td>https://gitugahsd/com</td> </tr>
+                        <tr><td> Live Translator </td> <td>Java/Android Studio</td> <td>Live Word Translator</td> <td>https://gitugahsd/com</td> </tr>
+                    </tbody>
+            </table>
+        </section>
+        <footer id="foot">
+            <h2>Contact</h2>
 
-    <footer id="foot">
-        <h3>&copy; Rijad Tahiri</h3>
-    </footer>
+            <div id="contact">
+                <i class="fab fa-twitter"><span class="contact_text"><a href="https://twitter.com/redportal_games" style="text-decoration: none ; color: white;"> Twitter</a></span></i>
+                <i class="fab fa-instagram"><span class="contact_text"><a href="https://www.instagram.com/riffokloop/" style="text-decoration: none; color: white;"> Instagram</a></span></i>
+                <i class="far fa-envelope"><span class="contact_text">Email (Business Inquiries)</span></i>
+            </div>
+
+        </footer>
+    </div>
 </body>
 </html>
