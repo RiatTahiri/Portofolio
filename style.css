@@ -41,6 +41,7 @@ ul {
 
 .main_nav .main_links li {
     padding: 0px 30px;
+    justify-items: center;
 }
 
 .main_nav ul li a {
@@ -61,7 +62,7 @@ ul {
 .main_header .logo {
     color: white;
     /* padding: 50px 0px; */
-    text-align: center;
+    align-self: center;
     padding: 50px 0px;
     font-size: 60px;
     grid-column: 2;
@@ -70,7 +71,6 @@ ul {
 
 .main_header h2 {
     color: white;
-    text-align: center;
     align-self: flex-start;
     font-size: 25px;
     grid-column: 2;
