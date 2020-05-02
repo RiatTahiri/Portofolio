@@ -5,4 +5,4 @@
 
 - Technologies used to create my portofolio
 
-- HTML / CSS
+- **HTML / CSS**
