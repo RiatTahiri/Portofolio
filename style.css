@@ -35,6 +35,10 @@ ul {
     font-family: "Roboto", sans-serif;
 }
 
+.title_image {
+    border-radius: 20px;
+}
+
 .main_nav .main_links {
     display: flex;
 }
