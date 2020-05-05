@@ -5,6 +5,6 @@
 
 - Technologies used to create my portofolio
 
-- **HTML / CSS**
+ ## HTML / CSS
 - For the animations i use Animate CSS : https://daneden.github.io/animate.css/
 - For the fonts i use Google Fonts(Roboto) : https://fonts.google.com/specimen/Roboto
