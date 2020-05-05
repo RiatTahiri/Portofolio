@@ -5,6 +5,6 @@
 
 ## Technologies Used
 
-** HTML / CSS **
+**HTML / CSS**
 - Animations are from Animate CSS : https://daneden.github.io/animate.css/
 - Font is from Google Fonts(Roboto) : https://fonts.google.com/specimen/Roboto
