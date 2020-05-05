@@ -8,3 +8,8 @@
 **HTML / CSS**
 - Animations are from Animate CSS : https://daneden.github.io/animate.css/
 - Font is from Google Fonts(Roboto) : https://fonts.google.com/specimen/Roboto
+
+## Things to add
+
+- Change the front-end to React.
+- Display repositories from github in the projects section.
