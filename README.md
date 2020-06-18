@@ -1,15 +1,10 @@
-# Portofolio
-
-- In my portofolio you can find useful information about me like, where i study , what i study etc.
-- You can also find projects i'm working on / or you can find them on my github profile.
-
 ## Technologies Used
 
 **HTML / CSS**
-- Animations are from Animate CSS : https://daneden.github.io/animate.css/
-- Font is from Google Fonts(Roboto) : https://fonts.google.com/specimen/Roboto
+- Animate on scroll : https://michalsnik.github.io/aos/
+- Fonts are from Google Fonts(Roboto, Lobster) : https://fonts.google.com/specimen/Roboto , https://fonts.google.com/specimen/Lobster
 
 ## Things to add
 
 - Change the front-end to React.
-- Display repositories from github in the projects section.
+- Turn it into a NodeJS application to get the github projects and display them on website.
