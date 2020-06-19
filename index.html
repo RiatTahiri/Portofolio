@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="minified_css.css">
+    <meta name="description" content="Rijad Tahiri Portofolio">
+    <meta name="keywords" content="Rijad Tahiri, Rijad Tahiri Portofolio">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/44cc8bb0f0.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <title>Rijad Tahiri | Software Enginner & Electrical Enginner</title>
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
     <main id="main_part">
         <header id="main_header">
             <nav id="main_nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a class="header_a" href="#main_part">Home</a></li>
+                    <li><a class="header_a" href="#projects_header">Projects</a></li>
+                    <li><a class="header_a" href="#about_header">About</a></li>
+                    <li><a class="header_a" href="#footer_section">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -26,7 +34,7 @@
     </main>
     <section id="projects_section">
         <header class="projects_header">
-            <h3>Projects</h3>
+            <h3 data-aos="fade-up">Projects</h3>
         </header>
         <section class="main_projects">
 
@@ -34,7 +42,7 @@
     </section>
     <section id="about_section">
         <header class="about_header">
-            <h3>About</h3>
+            <h3 data-aos="fade-up">About</h3>
         </header>
         <section class="about_info">
             <img src="assets/about_image.jpg" class="about_image">
@@ -43,7 +51,7 @@
     </section>
     <footer>
         <header id="footer_header">
-            <h3>Contact</h3>
+            <h3 data-aos="fade-up">Contact</h3>
         </header>
         <section id="footer_section">
             <i class="fab fa-twitter"></i>
