@@ -1,7 +1,6 @@
 ## Technologies Used
 
 **HTML / CSS**
-- Animate on scroll : https://michalsnik.github.io/aos/
 - Fonts are from Google Fonts(Roboto, Lobster) : https://fonts.google.com/specimen/Roboto , https://fonts.google.com/specimen/Lobster
 
 ## Things to add
